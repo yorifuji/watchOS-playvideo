@@ -12,10 +12,20 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet weak var movie: WKInterfaceMovie!
+
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
+        // set poster image from asset.
+        movie.setPosterImage(WKImage(imageName: "poster"))
+
+        // get video file url from outside of an asset catalog.
+        let path = Bundle.main.path(forResource: "sample", ofType: "mp4")!
+        let url = URL(fileURLWithPath: path)
+
+        // set movie url
+        movie.setMovieURL(url)
     }
     
     override func willActivate() {

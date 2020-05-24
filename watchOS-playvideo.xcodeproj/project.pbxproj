@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E33AB199247A553800761828 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E33AB198247A550900761828 /* sample.mp4 */; };
 		E3D4202C2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3D4202B2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E3D420322479F3C000ED7E10 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D420302479F3C000ED7E10 /* Interface.storyboard */; };
 		E3D420342479F3C100ED7E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D420332479F3C100ED7E10 /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E33AB198247A550900761828 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
 		E3D420272479F3BF00ED7E10 /* watchOS-playvideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS-playvideo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D4202B2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS-playvideo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D420312479F3C000ED7E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -117,8 +119,9 @@
 		E3D4203E2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E3D4203F2479F3C100ED7E10 /* InterfaceController.swift */,
+				E33AB198247A550900761828 /* sample.mp4 */,
 				E3D420412479F3C100ED7E10 /* ExtensionDelegate.swift */,
+				E3D4203F2479F3C100ED7E10 /* InterfaceController.swift */,
 				E3D420432479F3C100ED7E10 /* NotificationController.swift */,
 				E3D420452479F3C100ED7E10 /* Assets.xcassets */,
 				E3D420472479F3C100ED7E10 /* Info.plist */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3D420462479F3C100ED7E10 /* Assets.xcassets in Resources */,
+				E33AB199247A553800761828 /* sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
