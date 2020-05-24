@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3D4202C2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3D4202B2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3D420322479F3C000ED7E10 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D420302479F3C000ED7E10 /* Interface.storyboard */; };
+		E3D420342479F3C100ED7E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D420332479F3C100ED7E10 /* Assets.xcassets */; };
+		E3D4203B2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E3D4203A2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3D420402479F3C100ED7E10 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D4203F2479F3C100ED7E10 /* InterfaceController.swift */; };
+		E3D420422479F3C100ED7E10 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D420412479F3C100ED7E10 /* ExtensionDelegate.swift */; };
+		E3D420442479F3C100ED7E10 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D420432479F3C100ED7E10 /* NotificationController.swift */; };
+		E3D420462479F3C100ED7E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D420452479F3C100ED7E10 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3D4202D2479F3C000ED7E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3D420212479F3BF00ED7E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3D4202A2479F3C000ED7E10;
+			remoteInfo = "watchOS-playvideo WatchKit App";
+		};
+		E3D4203C2479F3C100ED7E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3D420212479F3BF00ED7E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3D420392479F3C100ED7E10;
+			remoteInfo = "watchOS-playvideo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3D4204E2479F3C100ED7E10 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E3D4203B2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D420522479F3C100ED7E10 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E3D4202C2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E3D420272479F3BF00ED7E10 /* watchOS-playvideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS-playvideo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D4202B2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS-playvideo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D420312479F3C000ED7E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E3D420332479F3C100ED7E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3D420352479F3C100ED7E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D4203A2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchOS-playvideo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D4203F2479F3C100ED7E10 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E3D420412479F3C100ED7E10 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E3D420432479F3C100ED7E10 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E3D420452479F3C100ED7E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3D420472479F3C100ED7E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D420482479F3C100ED7E10 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3D420372479F3C100ED7E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3D420202479F3BF00ED7E10 = {
+			isa = PBXGroup;
+			children = (
+				E3D4202F2479F3C000ED7E10 /* watchOS-playvideo WatchKit App */,
+				E3D4203E2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension */,
+				E3D420282479F3BF00ED7E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3D420282479F3BF00ED7E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3D420272479F3BF00ED7E10 /* watchOS-playvideo.app */,
+				E3D4202B2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app */,
+				E3D4203A2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3D4202F2479F3C000ED7E10 /* watchOS-playvideo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E3D420302479F3C000ED7E10 /* Interface.storyboard */,
+				E3D420332479F3C100ED7E10 /* Assets.xcassets */,
+				E3D420352479F3C100ED7E10 /* Info.plist */,
+			);
+			path = "watchOS-playvideo WatchKit App";
+			sourceTree = "<group>";
+		};
+		E3D4203E2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4203F2479F3C100ED7E10 /* InterfaceController.swift */,
+				E3D420412479F3C100ED7E10 /* ExtensionDelegate.swift */,
+				E3D420432479F3C100ED7E10 /* NotificationController.swift */,
+				E3D420452479F3C100ED7E10 /* Assets.xcassets */,
+				E3D420472479F3C100ED7E10 /* Info.plist */,
+				E3D420482479F3C100ED7E10 /* PushNotificationPayload.apns */,
+			);
+			path = "watchOS-playvideo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3D420262479F3BF00ED7E10 /* watchOS-playvideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D420532479F3C100ED7E10 /* Build configuration list for PBXNativeTarget "watchOS-playvideo" */;
+			buildPhases = (
+				E3D420252479F3BF00ED7E10 /* Resources */,
+				E3D420522479F3C100ED7E10 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D4202E2479F3C000ED7E10 /* PBXTargetDependency */,
+			);
+			name = "watchOS-playvideo";
+			productName = "watchOS-playvideo";
+			productReference = E3D420272479F3BF00ED7E10 /* watchOS-playvideo.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E3D4202A2479F3C000ED7E10 /* watchOS-playvideo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D4204F2479F3C100ED7E10 /* Build configuration list for PBXNativeTarget "watchOS-playvideo WatchKit App" */;
+			buildPhases = (
+				E3D420292479F3C000ED7E10 /* Resources */,
+				E3D4204E2479F3C100ED7E10 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D4203D2479F3C100ED7E10 /* PBXTargetDependency */,
+			);
+			name = "watchOS-playvideo WatchKit App";
+			productName = "watchOS-playvideo WatchKit App";
+			productReference = E3D4202B2479F3C000ED7E10 /* watchOS-playvideo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E3D420392479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D4204B2479F3C100ED7E10 /* Build configuration list for PBXNativeTarget "watchOS-playvideo WatchKit Extension" */;
+			buildPhases = (
+				E3D420362479F3C100ED7E10 /* Sources */,
+				E3D420372479F3C100ED7E10 /* Frameworks */,
+				E3D420382479F3C100ED7E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS-playvideo WatchKit Extension";
+			productName = "watchOS-playvideo WatchKit Extension";
+			productReference = E3D4203A2479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3D420212479F3BF00ED7E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yorifuji;
+				TargetAttributes = {
+					E3D420262479F3BF00ED7E10 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E3D4202A2479F3C000ED7E10 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E3D420392479F3C100ED7E10 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E3D420242479F3BF00ED7E10 /* Build configuration list for PBXProject "watchOS-playvideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3D420202479F3BF00ED7E10;
+			productRefGroup = E3D420282479F3BF00ED7E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3D420262479F3BF00ED7E10 /* watchOS-playvideo */,
+				E3D4202A2479F3C000ED7E10 /* watchOS-playvideo WatchKit App */,
+				E3D420392479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3D420252479F3BF00ED7E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D420292479F3C000ED7E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D420342479F3C100ED7E10 /* Assets.xcassets in Resources */,
+				E3D420322479F3C000ED7E10 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D420382479F3C100ED7E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D420462479F3C100ED7E10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3D420362479F3C100ED7E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D420442479F3C100ED7E10 /* NotificationController.swift in Sources */,
+				E3D420422479F3C100ED7E10 /* ExtensionDelegate.swift in Sources */,
+				E3D420402479F3C100ED7E10 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3D4202E2479F3C000ED7E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3D4202A2479F3C000ED7E10 /* watchOS-playvideo WatchKit App */;
+			targetProxy = E3D4202D2479F3C000ED7E10 /* PBXContainerItemProxy */;
+		};
+		E3D4203D2479F3C100ED7E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3D420392479F3C100ED7E10 /* watchOS-playvideo WatchKit Extension */;
+			targetProxy = E3D4203C2479F3C100ED7E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3D420302479F3C000ED7E10 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D420312479F3C000ED7E10 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3D420492479F3C100ED7E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3D4204A2479F3C100ED7E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3D4204C2479F3C100ED7E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				INFOPLIST_FILE = "watchOS-playvideo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-playvideo.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		E3D4204D2479F3C100ED7E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				INFOPLIST_FILE = "watchOS-playvideo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-playvideo.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		E3D420502479F3C100ED7E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				IBSC_MODULE = watchOS_playvideo_WatchKit_Extension;
+				INFOPLIST_FILE = "watchOS-playvideo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-playvideo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		E3D420512479F3C100ED7E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				IBSC_MODULE = watchOS_playvideo_WatchKit_Extension;
+				INFOPLIST_FILE = "watchOS-playvideo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-playvideo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		E3D420542479F3C100ED7E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-playvideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E3D420552479F3C100ED7E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-playvideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3D420242479F3BF00ED7E10 /* Build configuration list for PBXProject "watchOS-playvideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D420492479F3C100ED7E10 /* Debug */,
+				E3D4204A2479F3C100ED7E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D4204B2479F3C100ED7E10 /* Build configuration list for PBXNativeTarget "watchOS-playvideo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D4204C2479F3C100ED7E10 /* Debug */,
+				E3D4204D2479F3C100ED7E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D4204F2479F3C100ED7E10 /* Build configuration list for PBXNativeTarget "watchOS-playvideo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D420502479F3C100ED7E10 /* Debug */,
+				E3D420512479F3C100ED7E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D420532479F3C100ED7E10 /* Build configuration list for PBXNativeTarget "watchOS-playvideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D420542479F3C100ED7E10 /* Debug */,
+				E3D420552479F3C100ED7E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3D420212479F3BF00ED7E10 /* Project object */;
+}
